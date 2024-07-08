@@ -58,9 +58,9 @@ select * from indicados_ao_oscar where nome_do_filme = "Central do Brasil";
 11. Inclua no banco 3 filmes que nunca foram nem nomeados ao Oscar, mas que merecem ser.
 ```sql
 insert into indicados_ao_oscar(ano_filmagem, ano_cerimonia, cerimonia, categoria, nome_do_indicado, nome_do_filme, vencedor) values
-(2000, 2001, 73, 'Melhor Filme', null, 'Memento', 'false'),
-(2014, 2015, 87, 'Melhor Filme', null, 'Nightcrawler', 'false'),
-(2018, 2019, 91, 'Melhor Filme', null, 'First Reformed', 'false');
+(2000, 2001, 73, "Melhor Filme", null, "Memento", "false"),
+(2014, 2015, 87, "Melhor Filme", null, "Nightcrawler", "false"),
+(2018, 2019, 91, "Melhor Filme", null, "First Reformed", "false");
 ```
 
 13. Pensando no ano em que você nasceu: Qual foi o Oscar de melhor filme, Melhor Atriz e Melhor Diretor?
